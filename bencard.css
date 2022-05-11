@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@200&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+body{
+    background:linear-gradient(to top, #a18cd1,#fbc2eb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 175px;
+    background-color: azure;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.imgbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    left: 75px;
+    background-color: azure;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transform: scale(0.5);
+    
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    height: 350px;
+    transform: translateY(0px);
+}
+.card:hover .imgbox{
+    border-radius: 50%;
+    transform: scale(1);
+    transition: 1s;
+    left: 55px;
+    margin: 20px;
+}
+.card:hover.content:hover{
+    top:10px;
+}
+.content{
+    position: relative;
+    justify-content: center;
+    top: -20px;
+    width: 100%;
+}
+.details{
+    width: 100%;
+    transition: 1s;
+    padding: 5px;
+}
+.details h3{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: 600;
+    width: 100%;
+}
+ .details h4{
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    opacity: 0.5;
+    line-height: 10px;
+    width: 100%;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card .content .stats h3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.card .content .stats h3 span{
+    font-size: 15px;
+    color: grey;
+    opacity: 0.6;
+}
+.btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 40px;
+    width: 100%;
+}
+.btn button{
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #a18cd1;
+}
+button:hover{
+    background-color: #9a1975;
+    color: antiquewhite;
+    box-shadow: 0px 0px 15px #fbc2eb, 0px 0px 30px #fbc2eb, 0px 0px 45px #fbc2eb;
+    cursor: pointer;
+    transform: scale(1.2);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card .content{
+    overflow: hidden;
+}
+.card:hover{
+    height: 350px;
+} 
+}
+.card .content .details{
+    position:relative;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.card .content .details h4{
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+.card .content .stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card .content .stats h3{
+   
+}
+
+
+
+
+
+
+
+
